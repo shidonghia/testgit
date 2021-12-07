@@ -169,24 +169,24 @@
     
     ![YSC Get Outlook Contact](./demo/OutlookService/ysc_get_outlook_contacts.png)
 
-6. Cài đặt ứng dụng
+### Cài đặt ứng dụng
 
-    Mở một terminal, chạy lệnh sau để cài đặt Vue
+Mở một terminal, chạy lệnh sau để cài đặt Vue
     
     ```
     npm install vue
     ```
-    Mở terminal tại nơi chứa dự án, chạy lệnh sau để clone project về
+Mở terminal tại nơi chứa dự án, chạy lệnh sau để clone project về
     
     ```
     git clone https://github.com/frankkhiem/YSC-Frontend.git
     ```
-    Mở terminal tại thư mục dự án, chạy lệnh sau để cài đặt các module
+Mở terminal tại thư mục dự án, chạy lệnh sau để cài đặt các module
     
     ```
     npm install
     ```
-    Dùng lệnh sau để chạy ứng dụng
+Dùng lệnh sau để chạy ứng dụng
     ```
     npm run serve
     ```
