@@ -1,17 +1,17 @@
 # YSC App
 ## Công nghệ sử dụng
 **Front-end**
-- Framework: `VueJS`.
-- Styling: `CSS` và `Bootstrap`.
+- Framework: `VueJS`
+- Styling: `CSS` và `Bootstrap`
 
 **Back-end**
-- Viết các service, xử lý request: `Python`.
-- Cơ sở dữ liệu: `MongoDB`.
-- Kiểm tra API: `Postman`.
+- Viết các service, xử lý request: `Python`, `Firebase`
+- Cơ sở dữ liệu: `MongoDB`
+- Kiểm tra API: `Postman`
 
 ## Cài đặt
 ### Cài đặt Zato trên docker
-1. Yêu cầu máy cần cài docker, nếu chưa cài thì có thể cài theo hướng dẫn trên trang chủ: [Cài đặt docker](https://docs.docker.com/engine/install/).
+1. Yêu cầu máy cần cài docker, nếu chưa cài thì có thể cài theo hướng dẫn trên trang chủ: [Cài đặt docker](https://docs.docker.com/engine/install/)
 
 2. Cài đặt Zato 3.1
 
