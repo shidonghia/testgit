@@ -169,7 +169,7 @@
     
     ![YSC Get Outlook Contact](./demo/OutlookService/ysc_get_outlook_contacts.png)
 
-### Cài đặt ứng dụng
+6. Cài đặt ứng dụng
 
     Mở một terminal, chạy lệnh sau để cài đặt Vue
     
