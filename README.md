@@ -170,7 +170,8 @@
     ![YSC Get Outlook Contact](./demo/OutlookService/ysc_get_outlook_contacts.png)
 
 ### Cài đặt ứng dụng
-    Cài đặt Vue, mở một terminal
+
+    Mở một terminal, chạy lệnh sau để cài đặt Vue
     
     ```
     npm install vue
