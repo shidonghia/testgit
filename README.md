@@ -9,7 +9,7 @@
 - Cơ sở dữ liệu: `MongoDB`.
 - Kiểm tra API: `Postman`.
 
-## Hướng dẫn cài đặt
+## Cài đặt
 ### Cài đặt Zato trên docker
 1. Yêu cầu máy cần cài docker, nếu chưa cài thì có thể cài theo hướng dẫn trên trang chủ: [Cài đặt docker](https://docs.docker.com/engine/install/).
 
@@ -168,6 +168,25 @@
     Api get danh sách contact outlook của user
     
     ![YSC Get Outlook Contact](./demo/OutlookService/ysc_get_outlook_contacts.png)
+
+### Cài đặt ứng dụng
+    Cài đặt Vue, mở một terminal
+    
+    ```
+    npm install vue
+    ```
+    Mở terminal tại nơi chứa dự án, chạy lệnh sau để clone project về
+    ```
+    git clone https://github.com/frankkhiem/YSC-Frontend.git
+    ```
+    Mở terminal tại thư mục dự án, chạy lệnh sau để cài đặt các module
+    ```
+    npm install
+    ```
+    Dùng lệnh sau để chạy ứng dụng
+    ```
+    npm run serve
+    ```
     
     
     
