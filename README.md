@@ -13,11 +13,11 @@
 ### Cài đặt Zato trên docker
 1. Yêu cầu máy cần cài docker, nếu chưa cài thì có thể cài theo hướng dẫn trên trang chủ: [Cài đặt docker](https://docs.docker.com/engine/install/).
 
-2. Cài đặt Zato 3.1
+**2. Cài đặt Zato 3.1**
 
-    1. Window
+    **1. Window**
     
-        Mở terminal chạy các lệnh sau 
+    Mở terminal chạy các lệnh sau 
         ```
         docker pull registry.gitlab.com/zatosource/docker-registry/quickstart:3.1-py3
         docker run --pull=always -it -p 22 -p 6379:6379 -p 8183:8183 -p 17010:17010 -p 17011:17011 \-p 11223:11223 --name zato \registry.gitlab.com/zatosource/docker-registry/quickstart:3.1-py3
@@ -172,17 +172,14 @@
 ### Cài đặt ứng dụng
 
 Mở một terminal, chạy lệnh sau để cài đặt Vue
-    
     ```
     npm install vue
     ```
 Mở terminal tại nơi chứa dự án, chạy lệnh sau để clone project về
-    
     ```
     git clone https://github.com/frankkhiem/YSC-Frontend.git
     ```
 Mở terminal tại thư mục dự án, chạy lệnh sau để cài đặt các module
-    
     ```
     npm install
     ```
