@@ -119,7 +119,7 @@
     
     Api chỉnh sửa thông tin hồ sơ user
     
-    ![YSC Update User Profile](./demo/UserService/ysc_user_profile.png)
+    ![YSC Update User Profile](./demo/UserService/ysc_update_user_profile.png)
 
 4. Upload google service vào zato
 
