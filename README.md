@@ -17,17 +17,17 @@
 
     1. Window
     
-    Mở terminal chạy các lệnh sau 
+        Mở terminal chạy các lệnh sau 
         ```
         docker pull registry.gitlab.com/zatosource/docker-registry/quickstart:3.1-py3
         docker run --pull=always -it -p 22 -p 6379:6379 -p 8183:8183 -p 17010:17010 -p 17011:17011 \-p 11223:11223 --name zato \registry.gitlab.com/zatosource/docker-registry/quickstart:3.1-py3
         ```
-     Mở một terminal khác, chạy lệnh sau để mấy tài khoản và mật khẩu cho trang quản trị
+        Mở một terminal khác, chạy lệnh sau để mấy tài khoản và mật khẩu cho trang quản trị
         ```
         docker exec zato cat /opt/zato/web_admin_password
         ```
-     Truy cập vào http://localhost:8183, sử dụng username là admin và mật khẩu nhận được từ câu lệnh trên để đăng nhập vào dashboard.
-     Khởi động zato
+        Truy cập vào http://localhost:8183, sử dụng username là admin và mật khẩu nhận được từ câu lệnh trên để đăng nhập vào dashboard.
+        Khởi động zato
         ```
         docker start -i zato
         ```
