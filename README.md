@@ -81,23 +81,23 @@
     
     Tại dashboard, Chọn Services -> List services -> Upload services, tải lên các file trong thư mục /services/auth_services ở thư mục dự án vừa clone về.
     
-    ![Upload Service](https://drive.google.com/uc?export=view&id=1o_ZWa1Cx1hBNbTVKAsaQj8trmICbREH_)
+    ![Upload Service](./demo/UploadSevice/upload_service.png)
     
     Vào Connections => Outgoing => REST để tạo connector tới services auth của firebase, lần lượt tạo các outconnn sau, các giá trị phải để như trong ảnh
     
-    ![Sign Up Firebase](./demo/UploadSevice/upload_service.png)
-    ![Login Firebase](https://drive.google.com/uc?export=view&id=1KKc4g-1ZGReFKvYJ9tLf-VlXA5_OkwYc)
-    ![Auth Firebase](https://drive.google.com/uc?export=view&id=1p-7CJ1Y0756GqeX2nYUJdV8ZhyEWFWCE)
+    ![Sign Up Firebase](./demo/FirebaseService/sign_up_firebase.png)
+    ![Login Firebase](./demo/FirebaseService/login_firebase.png)
+    ![Auth Firebase](./demo/FirebaseService/auth_firebase.png)
     
     Tiếp theo vào Connections => Channels => REST để xuất auth_services dưới dạng REST Api
     
     API đăng ký tài khoản
     
-    ![YSC Register](https://drive.google.com/uc?export=view&id=1oV10z-3TWNKplFs-E6kWHVrlofM6rzRy)
+    ![YSC Register](./demo/FirebaseService/ysc_register.png)
     
     API đăng nhập tài khoản
     
-    ![YSC Login](https://drive.google.com/uc?export=view&id=1GaEWNL37-P7h00YmzD7lJ8FAjZD6ZFIc)
+    ![YSC Login](./demo/FirebaseService/ysc_login.png)
     
 3. Upload user service vào zato
 
@@ -107,19 +107,19 @@
     
     Api get thông tin user
     
-    ![YSC User Profile](https://drive.google.com/uc?export=view&id=1YENL1cCE-lAtHsR-Q5nO8E71mVRdI2Xd)
+    ![YSC User Profile](./demo/UserService/ysc_user_profile.png)
     
     Api get danh bạ đã được đồng bộ của user
     
-    ![YSC Get Sync Contact](https://drive.google.com/uc?export=view&id=1EQhKKxZe1WIU4ABl3NBTtOfxAflksR5A)
+    ![YSC Get Sync Contact](./demo/UserService/ysc_get_sync_contact.png)
     
     Api gọi service đồng bộ danh bạ, trả về thời gian đồng bộ và danh bạ đã được đồng bộ
     
-    ![YSC Invoke Sync Contact](https://drive.google.com/uc?export=view&id=1SDFVSkPheraS0nMevPXwb2DvPy72BUhU)
+    ![YSC Invoke Sync Contact](./demo/UserService/ysc_invoke_sync_contact.png)
     
     Api chỉnh sửa thông tin hồ sơ user
     
-    ![YSC Update User Profile](https://drive.google.com/uc?export=view&id=1FYx8oyGO_1ir38gdWjmulR0LzjFa2Q9U)
+    ![YSC Update User Profile](./demo/UserService/ysc_user_profile.png)
 
 4. Upload google service vào zato
 
@@ -127,23 +127,23 @@
     
     Vào Connections => Outgoing => REST tạo connector tới services của google để liên kết và lấy contacts về
     
-    ![Exchange Google Token](https://drive.google.com/uc?export=view&id=1e1lV8I9U0k_MNZ4t00YqLaSjrqbO1-X9)
+    ![Exchange Google Token](./demo/GoogleService/exchange_google_token.png)
     
-    ![Load Google Contact](https://drive.google.com/uc?export=view&id=1evb_nANbFKk4BlQC54fXomb2UdfYPFI0)
+    ![Load Google Contact](./demo/GoogleService/load_google_contacts.png)
     
     Vào Connections => Channels => REST tạo các channel REST mới sau 
     
     API trao đổi token của google
     
-    ![YSC Exchange Google Token](https://drive.google.com/uc?export=view&id=14qxf8WozC4NHpOARJhofSy-klLiJI2j0)
+    ![YSC Exchange Google Token](./demo/GoogleService/ysc_exchange_google_token.png)
     
     Api load contacts từ google lưu vào database
     
-    ![YSC Load Google Contact](https://drive.google.com/uc?export=view&id=1tld0HAecyQY3vt6JdeVJUzIxY_mwKpy1)
+    ![YSC Load Google Contact](./demo/GoogleService/ysc_load_google_contact.png)
     
     Api get danh sách contacts google của user
     
-    ![YSC Get Google Contact](https://drive.google.com/uc?export=view&id=1iKgc3aTOv-Na9n1hd6RhDfvnf8wu5FlK)
+    ![YSC Get Google Contact](./demo/GoogleService/ysc_get_google_contact.png)
     
 5. Upload outlook service vào zato
     
@@ -151,23 +151,23 @@
     
     Vào Connections => Outgoing => REST tạo connector tới services của microsoft để liên kết và lấy outlook contacts về
     
-    ![Exchange Microsoft Token](https://drive.google.com/uc?export=view&id=10SyTzRGD2wuFFK9r4xD7vz5zKKmWXdY1)
+    ![Exchange Microsoft Token](./demo/OutlookService/exchange_microsoft_token.png)
     
-    ![Load Outlook Contact](https://drive.google.com/uc?export=view&id=1mgAlMR5JEiKlBIvZsTd4wVolQ17O8uHd)
+    ![Load Outlook Contact](./demo/OutlookService/load_outlook_contacts.png)
     
     Vào Connections => Channels => REST tạo các channel REST mới sau
     
     Api trao đổi token của microsoft
     
-    ![YSC Exchange Microsoft Token](https://drive.google.com/uc?export=view&id=1dMhkWlR2v8nVGUv8aTEezm7jC6iaQ9js)
+    ![YSC Exchange Microsoft Token](./demo/OutlookService/ysc_exchange_microsoft_token.png)
     
     Api load contacts từ outlook lưu vào database
     
-    ![YSC Load Outlook Contact](https://drive.google.com/uc?export=view&id=1axlGKoEE8HVWn1l9ZxmC47nBNZnpLNQS)
+    ![YSC Load Outlook Contact](./demo/OutlookService/ysc_load_outlook_contacts.png)
     
     Api get danh sách contact outlook của user
     
-    ![YSC Load Outlook Contact](https://drive.google.com/uc?export=view&id=1Brp8SePo5QlgNmyoT120aJVmNLIMpKfZ)
+    ![YSC Get Outlook Contact](./demo/OutlookService/ysc_get_outlook_contacts.png)
     
     
     
