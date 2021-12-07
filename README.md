@@ -85,7 +85,7 @@
     
     Vào Connections => Outgoing => REST để tạo connector tới services auth của firebase, lần lượt tạo các outconnn sau, các giá trị phải để như trong ảnh
     
-    ![Sign Up Firebase](https://drive.google.com/uc?export=view&id=1QbOWmgs20J5F0q5Bq2ocRiGWAH5GZxmi)
+    ![Sign Up Firebase](./demo/UploadSevice/upload_service.png)
     ![Login Firebase](https://drive.google.com/uc?export=view&id=1KKc4g-1ZGReFKvYJ9tLf-VlXA5_OkwYc)
     ![Auth Firebase](https://drive.google.com/uc?export=view&id=1p-7CJ1Y0756GqeX2nYUJdV8ZhyEWFWCE)
     
